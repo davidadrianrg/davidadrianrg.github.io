@@ -1,109 +1,465 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta charset="utf-8">
+
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F2031196Q"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4F2031196Q');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4F2031196Q');
   </script>
 
-  <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>David Adrián Rodríguez García</title>
-  <meta name="description" content="David Adrián Rodríguez García">
+  <title>David Adrián Rodríguez García — Data Engineer · IoT · Data Architect</title>
+  <meta name="description" content="Ingeniero de datos e IoT en Galicia. Diseño arquitecturas de datos en la nube para entornos industriales: de la planta al dashboard, en tiempo real.">
   <meta name="author" content="David Adrián Rodríguez García">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F6F3EC">
+  <link rel="canonical" href="https://davidadrianrg.github.io/">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://davidadrianrg.github.io/">
+  <meta property="og:title" content="David Adrián Rodríguez García — Data Engineer · IoT · Data Architect">
+  <meta property="og:description" content="Ingeniero de datos e IoT en Galicia. Diseño arquitecturas de datos en la nube para entornos industriales: de la planta al dashboard, en tiempo real.">
+  <meta property="og:image" content="https://davidadrianrg.github.io/images/og-banner.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton-light.css">
-  <link rel="stylesheet" href="css/brands.css">
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/profile.jpg">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css">
 
+  <!-- Iconos -->
+  <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "David Adrián Rodríguez García",
+    "jobTitle": "Data Engineer · IoT · Data Architect",
+    "url": "https://davidadrianrg.github.io/",
+    "image": "https://davidadrianrg.github.io/images/profile-795.jpg",
+    "email": "mailto:davidadrianrg@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Coirós de Arriba", "addressRegion": "Galicia", "addressCountry": "ES" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Universidade da Coruña" },
+      { "@type": "CollegeOrUniversity", "name": "Universitat Politècnica de València" },
+      { "@type": "EducationalOrganization", "name": "ThePowerMBA" }
+    ],
+    "knowsAbout": ["Data Engineering", "IoT", "Cloud Architecture", "Apache Kafka", "Apache Flink", "AWS", "GCP", "OPC UA"],
+    "sameAs": [
+      "https://www.linkedin.com/in/davidarguezgarcia/",
+      "https://github.com/davidadrianrg"
+    ]
+  }
+  </script>
 </head>
 <body>
- 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-        <!-- Your Image Here -->
-        <style>
-          img.avatar {
-            border: 2px solid white;
-            border-radius: 50%;
-          }
-          a.small {
-            background: #1DA1F2;
-            border-radius: 50px;
-            font-size: 18px;
-            text-align: center;
-            text-decoration: none;
-            height: 48px;
-            padding: 0 16px;
-            text-align: center;
-            vertical-align: middle;
-            font-size: 18px;
-            width: 300px;
-            font-weight: 600;
-            line-height: 48px;
-            letter-spacing: 0.5px;
-            background-color: transparent;
-            border-radius: 8px;
-            cursor: pointer;
-            box-sizing: border-box;
-          }
-          footer {
-            text-align: center;
-            padding: 5px;
-            color: rgb(0, 0, 0);
-            font-size: 16px;
-          }
-        </style>
-        <img src="images/profile.png" srcset="images/profile.jpg" class="avatar" width="45%">
+  <a class="skip" href="#contenido" data-i18n="skip">Saltar al contenido</a>
 
-
-        <!-- My Name -->
-        <h1>David Adrián Rodríguez García</h1>
-
-        <!-- My Degree -->
-        <h2>Big Data Engineer</h2>
-
-        <!-- Short Bio -->
-        <p>Building Machine Learning, Big Data and IoT software projects, using AWS and GCP cloud solutions and Python, Java or C/C++ coding skills.</p>
-        
-        <!-- My Profile Links -->  
-        
-        <a class="button button-linkedin" href="https://www.linkedin.com/in/davidarguezgarcia/"><img class="icon" src="icons/linkedin.svg">Linkedin</a><br>
-        <a class="button button-github" href="https://github.com/davidadrianrg"><img class="icon" src="icons/github.svg">My code</a> <br>
-        <a class="button button-medium" href="mailto:davidadrianrg@gmail.com"><img class="icon" src="icons/mail.svg">Contact me</a> <br>
-          <br>
-        <footer>
-          <p>From  <a href="https://goo.gl/maps/G6Erm1UEdzn816Jt8"><img src="icons/hercules-tower.svg" class="icon"></a> to the world</p>
-        </footer>
-          
+  <!-- ======================= Cabecera ======================= -->
+  <header class="site-head">
+    <div class="wrap head-row">
+      <a class="brand" href="#perfil">
+        <span class="brand-mark">DR</span>
+        <span>David A. Rodríguez</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#perfil" data-i18n="nav.perfil">Perfil</a>
+        <a href="#capacidades" data-i18n="nav.capacidades">Capacidades</a>
+        <a href="#experiencia" data-i18n="nav.experiencia">Experiencia</a>
+        <a href="#formacion" data-i18n="nav.formacion">Formación</a>
+        <a href="#proyectos" data-i18n="nav.proyectos">Proyectos</a>
+        <a href="#contacto" data-i18n="nav.contacto">Contacto</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang-btn="es" aria-pressed="true" aria-label="Español">ES</button>
+        <button type="button" data-lang-btn="en" aria-pressed="false" aria-label="English">EN</button>
       </div>
     </div>
-  </div>
+  </header>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main id="contenido">
+
+    <!-- ======================= Perfil ======================= -->
+    <section id="perfil" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Data Engineer · IoT · Data Architect</p>
+          <h1>David Adrián Rodríguez García</h1>
+          <p class="lead"><span data-i18n="hero.lead1">Diseño arquitecturas de datos en la nube para entornos industriales:</span> <em data-i18n="hero.lead2">de la planta al dashboard, en tiempo real.</em></p>
+
+          <dl class="hero-facts">
+            <div class="fact">
+              <dt data-i18n="hero.f1.label">Ubicación</dt>
+              <dd data-i18n="hero.f1.val">Coirós de Arriba, Galicia — España</dd>
+            </div>
+            <div class="fact">
+              <dt data-i18n="hero.f2.label">Idiomas</dt>
+              <dd data-i18n="hero.f2.val">Español y galego (nativos) · Inglés (profesional) · Alemán (básico)</dd>
+            </div>
+            <div class="fact">
+              <dt data-i18n="hero.f3.label">Certificación</dt>
+              <dd data-i18n="hero.f3.val">AWS Certified Solutions Architect – Associate</dd>
+            </div>
+          </dl>
+
+          <div class="cta-row">
+            <a class="btn btn--primary" href="mailto:davidadrianrg@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.8"><path d="M3.5 6.5h17v11h-17z"/><path d="m3.5 7.2 8.5 5.9 8.5-5.9"/></svg>
+              <span data-i18n="hero.cta1">Escríbeme</span>
+            </a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/davidarguezgarcia/">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a class="btn btn--ghost" href="https://github.com/davidadrianrg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <div class="photo-frame">
+            <picture>
+              <source type="image/webp" srcset="images/profile-440.webp 440w, images/profile-795.webp 795w" sizes="(max-width: 1000px) 340px, 445px">
+              <img src="images/profile-795.jpg" srcset="images/profile-440.jpg 440w, images/profile-795.jpg 795w" sizes="(max-width: 1000px) 340px, 445px" width="795" height="795" alt="Retrato de David Adrián Rodríguez García" data-i18n="hero.photoAlt" data-i18n-attr="alt" fetchpriority="high">
+            </picture>
+          </div>
+          <figcaption>Coirós de Arriba · Galicia</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Franja de stack -->
+    <div class="strip">
+      <div class="wrap">
+        <p>AWS · GCP · Kafka · Flink · Spark · Python · Terraform · CloudFormation · Docker · OPC UA · AWS Greengrass · Airflow</p>
+      </div>
+    </div>
+
+    <!-- ======================= Capacidades ======================= -->
+    <section id="capacidades" class="section section--dark">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="cap.eyebrow">Capacidades</p>
+          <h2 data-i18n="cap.h2">Qué hago</h2>
+        </div>
+        <div class="cap-list reveal">
+          <div class="cap-item">
+            <p class="cap-num">01</p>
+            <h3 class="cap-title" data-i18n="cap1.t">Arquitectura de datos e IoT</h3>
+            <p class="cap-desc" data-i18n="cap1.d">Data lakes, streaming y MLOps en AWS y GCP.</p>
+            <p class="cap-tags"><span class="tag">AWS</span><span class="tag">GCP</span></p>
+          </div>
+          <div class="cap-item">
+            <p class="cap-num">02</p>
+            <h3 class="cap-title" data-i18n="cap2.t">Infraestructura como código</h3>
+            <p class="cap-desc" data-i18n="cap2.d">Despliegues definidos como código: contenedores y serverless.</p>
+            <p class="cap-tags"><span class="tag">Terraform</span><span class="tag">CloudFormation</span><span class="tag">Docker</span></p>
+          </div>
+          <div class="cap-item">
+            <p class="cap-num">03</p>
+            <h3 class="cap-title" data-i18n="cap3.t">Procesos batch y streaming</h3>
+            <p class="cap-desc" data-i18n="cap3.d">Procesamiento en tiempo real y batch con orquestación fiable.</p>
+            <p class="cap-tags"><span class="tag">Spark</span><span class="tag">Kafka</span><span class="tag">Flink</span><span class="tag">Airflow</span><span class="tag">Step Functions</span></p>
+          </div>
+          <div class="cap-item">
+            <p class="cap-num">04</p>
+            <h3 class="cap-title" data-i18n="cap4.t">Datos industriales</h3>
+            <p class="cap-desc" data-i18n="cap4.d">Captación desde planta: sensores, PLC e históricos; sistemas edge-cloud.</p>
+            <p class="cap-tags"><span class="tag">OPC UA</span><span class="tag">AWS Greengrass</span></p>
+          </div>
+          <div class="cap-item">
+            <p class="cap-num">05</p>
+            <h3 class="cap-title" data-i18n="cap5.t">IA agéntica aplicada</h3>
+            <p class="cap-desc" data-i18n="cap5.d">Mejora de la productividad mediante el despliegue de IA en los equipos.</p>
+            <p class="cap-tags"><span class="tag">LLMs</span><span class="tag" data-i18n="cap5.tag">Agentes</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Experiencia ======================= -->
+    <section id="experiencia" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="exp.eyebrow">Experiencia</p>
+          <h2 data-i18n="exp.h2">Dónde lo he aplicado</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <article class="job job--current">
+            <div class="job-when">
+              <p class="job-period" data-i18n="job1.period">mar 2024 — actualidad</p>
+              <p class="job-loc" data-i18n="job1.loc">Madrid, España</p>
+            </div>
+            <div class="job-body">
+              <h3 class="job-role"><span data-i18n="job1.role">Data &amp; IoT Engineer</span> <span class="job-sep">·</span> <span class="job-co">Galeo</span></h3>
+              <ul class="job-list">
+                <li data-i18n="job1.b1">Arquitecturas de ingesta desde dispositivos IoT y sistemas de planta (sensores, PLC, históricos) hacia la nube, con procesamiento en streaming.</li>
+                <li data-i18n="job1.b2">Preparación y transformación de datos para mantenimiento prescriptivo: limpieza, normalización, series temporales y features listas para modelos.</li>
+                <li data-i18n="job1.b3">Diseño de una nueva plataforma de datos para la gestión centralizada del dato en streaming, en tiempo real y escalable.</li>
+              </ul>
+              <p class="job-tags"><span class="tag">AWS Greengrass</span><span class="tag">IoT Core</span><span class="tag">Kinesis</span><span class="tag">Lambda</span><span class="tag">Glue</span><span class="tag">Athena</span><span class="tag">API Gateway</span><span class="tag">Python</span><span class="tag">Kafka</span></p>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-when">
+              <p class="job-period" data-i18n="job2.period">nov 2023 — feb 2024</p>
+              <p class="job-loc" data-i18n="job2.loc">Madrid, España</p>
+            </div>
+            <div class="job-body">
+              <h3 class="job-role"><span data-i18n="job2.role">Lead Data Architect · Data Engineer</span> <span class="job-sep">·</span> <span class="job-co">Pulpo</span></h3>
+              <ul class="job-list">
+                <li data-i18n="job2.b1">Rol de liderazgo técnico del departamento de Data: liderazgo del equipo y diseño de arquitecturas batch y streaming.</li>
+                <li data-i18n="job2.b2">Arquitecturas con Apache Kafka y Apache Flink para transformar el modelo de datos de la compañía.</li>
+              </ul>
+              <p class="job-tags"><span class="tag">Kafka</span><span class="tag">Flink</span></p>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-when">
+              <p class="job-period" data-i18n="job3.period">feb 2023 — nov 2023</p>
+              <p class="job-loc">A Coruña, Galicia</p>
+            </div>
+            <div class="job-body">
+              <h3 class="job-role"><span data-i18n="job3.role">Data Architect</span> <span class="job-sep">·</span> <span class="job-co">Sbayt</span></h3>
+              <ul class="job-list">
+                <li data-i18n="job3.b1">Estrategia tecnológica de la compañía y arquitecturas de datos para productos de analítica e IA, con foco en la industria siderometalúrgica (partner global: Russula).</li>
+                <li data-i18n="job3.b2">Tratamiento de datos de producción en tiempo real con streaming y machine learning: mantenimiento predictivo, prescripción de fallos y optimización del control industrial.</li>
+                <li data-i18n="job3.b3">Arquitecturas híbridas on-premise–cloud que garantizan disponibilidad y escalabilidad.</li>
+              </ul>
+              <p class="job-tags"><span class="tag">Streaming</span><span class="tag">Machine Learning</span><span class="tag">On-premise / Cloud</span></p>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-when">
+              <p class="job-period" data-i18n="job4.period">oct 2021 — feb 2023</p>
+              <p class="job-loc">Santiago de Compostela</p>
+            </div>
+            <div class="job-body">
+              <h3 class="job-role"><span data-i18n="job4.role">Big Data Engineer</span> <span class="job-sep">·</span> <span class="job-co">FDS Spain (DXC Technology)</span></h3>
+              <ul class="job-list">
+                <li data-i18n="job4.b1">Ingeniería de datos para un gran cliente del sector retail de alimentación, en equipos con GCP y AWS.</li>
+                <li data-i18n="job4.b2">Modelos ETL de ingesta con Talend y Airflow; automatización de tareas, recogida de información y validación de los datos.</li>
+                <li data-i18n="job4.b3">Dashboards para trazabilidad y explotación del dato (Google Data Studio).</li>
+              </ul>
+              <p class="job-tags"><span class="tag">GCP</span><span class="tag">AWS</span><span class="tag">Talend</span><span class="tag">Airflow</span><span class="tag">Data Studio</span></p>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-when">
+              <p class="job-period" data-i18n="job5.period">oct 2019 — nov 2021</p>
+              <p class="job-loc" data-i18n="job5.loc">A Coruña y alrededores</p>
+            </div>
+            <div class="job-body">
+              <h3 class="job-role"><span data-i18n="job5.role">IoT &amp; Data Engineer</span> <span class="job-sep">·</span> <span class="job-co" data-i18n="job5.co">Autónomo</span></h3>
+              <ul class="job-list">
+                <li data-i18n="job5.b1">Diseño e instalación de sistemas IoT en los sectores residencial y retail.</li>
+                <li data-i18n="job5.b2">Programación de microcontroladores; backend con Node-RED; AWS y Raspberry Pi como dispositivo edge.</li>
+              </ul>
+              <p class="job-tags"><span class="tag">Node-RED</span><span class="tag">AWS</span><span class="tag">Raspberry Pi</span></p>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-when">
+              <p class="job-period" data-i18n="job6.period">may 2018 — feb 2020</p>
+              <p class="job-loc" data-i18n="job6.loc">A Coruña y alrededores</p>
+            </div>
+            <div class="job-body">
+              <h3 class="job-role"><span data-i18n="job6.role">Ingeniero de Diseño de Instalaciones</span> <span class="job-sep">·</span> <span class="job-co">INSTRA Ingenieros</span></h3>
+              <ul class="job-list">
+                <li data-i18n="job6.b1">Responsable del equipo de instalaciones eléctricas para tiendas del sector retail en Asia.</li>
+                <li data-i18n="job6.b2">Proyectos de instalaciones eléctricas de baja tensión, iluminación, climatización y saneamiento.</li>
+                <li data-i18n="job6.b3">Instalaciones especiales: megafonía, red de datos y CCTV.</li>
+              </ul>
+              <p class="job-tags"><span class="tag">Diseño de instalaciones</span><span class="tag">Baja tensión</span><span class="tag">CCTV</span></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Formación ======================= -->
+    <section id="formacion" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="edu.eyebrow">Formación</p>
+          <h2 data-i18n="edu.h2">Ingeniería, informática y negocio</h2>
+        </div>
+        <div class="rows reveal">
+          <div class="row">
+            <p class="row-when">2020 — 2021</p>
+            <div>
+              <h3 class="row-title" data-i18n="edu1.t">Máster Universitario en Informática Industrial y Robótica</h3>
+              <p class="row-sub" data-i18n="edu.udc">Universidade da Coruña (UDC)</p>
+            </div>
+          </div>
+          <div class="row">
+            <p class="row-when">2019 — 2020</p>
+            <div>
+              <h3 class="row-title" data-i18n="edu2.t">Máster en Dirección de Empresas — Future Leaders</h3>
+              <p class="row-sub">ThePowerMBA</p>
+            </div>
+          </div>
+          <div class="row">
+            <p class="row-when">2017 — 2019</p>
+            <div>
+              <h3 class="row-title" data-i18n="edu3.t">Máster en Ingeniería Industrial</h3>
+              <p class="row-sub" data-i18n="edu.udc">Universidade da Coruña (UDC)</p>
+            </div>
+          </div>
+          <div class="row">
+            <p class="row-when">2016 — 2017</p>
+            <div>
+              <h3 class="row-title" data-i18n="edu4.t">Máster en Ingeniería Industrial</h3>
+              <p class="row-sub">Universitat Politècnica de València (UPV)</p>
+            </div>
+          </div>
+          <div class="row">
+            <p class="row-when">2012 — 2016</p>
+            <div>
+              <h3 class="row-title" data-i18n="edu5.t">Grado en Ingeniería en Tecnologías Industriales</h3>
+              <p class="row-sub" data-i18n="edu.udc">Universidade da Coruña (UDC)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Reconocimientos ======================= -->
+    <section id="reconocimientos" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="rec.eyebrow">Reconocimientos</p>
+          <h2 data-i18n="rec.h2">Certificaciones y premios</h2>
+        </div>
+        <div class="rows reveal">
+          <div class="row">
+            <p class="row-when" data-i18n="rec.l1">Certificación</p>
+            <div>
+              <h3 class="row-title">AWS Certified Solutions Architect – Associate</h3>
+              <p class="row-sub">Amazon Web Services</p>
+            </div>
+          </div>
+          <div class="row">
+            <p class="row-when" data-i18n="rec.l2">Premio</p>
+            <div>
+              <h3 class="row-title" data-i18n="rec.award">Mejor Proyecto Emprendedor — VII Premios Galicia de Energía</h3>
+            </div>
+          </div>
+          <div class="row">
+            <p class="row-when" data-i18n="rec.l3">Formación complementaria</p>
+            <div>
+              <h3 class="row-title" data-i18n="rec.courses">JavaScript Profesional · NodeJS aplicado a la domótica (Google Home y Google Assistant) · Getting Started with AWS · SSH: imprescindible en tiempos modernos</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Proyectos ======================= -->
+    <section id="proyectos" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="prj.eyebrow">Proyectos</p>
+          <h2 data-i18n="prj.h2">Código abierto</h2>
+        </div>
+        <div class="proj-grid reveal">
+          <article class="proj">
+            <div class="proj-top">
+              <h3 class="proj-name">romm-sync</h3>
+              <span class="proj-stars">★ 2</span>
+            </div>
+            <p class="proj-desc" data-i18n="prj1.d">Cliente multiplataforma para servidores RomM: Android y Linux. Descarga ROMs y sincroniza partidas entre dispositivos.</p>
+            <p class="proj-tags"><span class="tag">Kotlin</span><span class="tag">Compose Multiplatform</span></p>
+            <a class="proj-link" href="https://github.com/davidadrianrg/romm-sync"><span data-i18n="prj.link">Ver en GitHub</span> <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </article>
+
+          <article class="proj">
+            <div class="proj-top">
+              <h3 class="proj-name">open-co2-monitoring-system</h3>
+            </div>
+            <p class="proj-desc" data-i18n="prj2.d">Monitorización de CO₂ con ESP8266 y sensor MH-Z19C: los datos viajan por MQTT hasta Node-RED, InfluxDB y Grafana.</p>
+            <p class="proj-tags"><span class="tag">C++</span><span class="tag">ESP8266</span><span class="tag">MQTT</span><span class="tag">InfluxDB</span><span class="tag">Grafana</span></p>
+            <a class="proj-link" href="https://github.com/davidadrianrg/open-co2-monitoring-system"><span data-i18n="prj.link">Ver en GitHub</span> <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </article>
+
+          <article class="proj">
+            <div class="proj-top">
+              <h3 class="proj-name">tank-level-control</h3>
+            </div>
+            <p class="proj-desc" data-i18n="prj3.d">Control de nivel de 6 tanques con sistemas embebidos (BeagleBone, Raspberry Pi, Arduino, Wemos D1) y datos por MQTT a una GUI en Python.</p>
+            <p class="proj-tags"><span class="tag">Python</span><span class="tag">MQTT</span><span class="tag">Embedded</span></p>
+            <a class="proj-link" href="https://github.com/davidadrianrg/tank-level-control"><span data-i18n="prj.link">Ver en GitHub</span> <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </article>
+
+          <article class="proj">
+            <div class="proj-top">
+              <h3 class="proj-name">deckmic</h3>
+            </div>
+            <p class="proj-desc" data-i18n="prj4.d">Tu móvil Android como micrófono inalámbrico y dictado con Whisper local para Linux y SteamOS. 100 % offline.</p>
+            <p class="proj-tags"><span class="tag">Python</span><span class="tag">PWA</span><span class="tag">Whisper</span></p>
+            <a class="proj-link" href="https://github.com/davidadrianrg/deckmic"><span data-i18n="prj.link">Ver en GitHub</span> <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+          </article>
+        </div>
+        <p class="proj-more reveal"><a href="https://github.com/davidadrianrg" data-i18n="prj.more">Más proyectos en github.com/davidadrianrg →</a></p>
+      </div>
+    </section>
+
+    <!-- ======================= Contacto ======================= -->
+    <section id="contacto" class="section section--dark contact">
+      <div class="wrap contact-inner reveal">
+        <p class="eyebrow" data-i18n="con.eyebrow">Contacto</p>
+        <h2 data-i18n="con.h2">¿Tienes un proyecto de datos o IoT?</h2>
+        <p class="para" data-i18n="con.para">Hablemos de arquitectura, ingesta, streaming o IA aplicada.</p>
+        <div class="cta-row">
+          <a class="btn btn--light" href="mailto:davidadrianrg@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.8"><path d="M3.5 6.5h17v11h-17z"/><path d="m3.5 7.2 8.5 5.9 8.5-5.9"/></svg>
+            <span class="email-display">davidadrianrg@gmail.com</span>
+          </a>
+          <a class="btn btn--ghost-dark" href="https://www.linkedin.com/in/davidarguezgarcia/">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn btn--ghost-dark" href="https://github.com/davidadrianrg">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= Pie ======================= -->
+  <footer class="footer">
+    <div class="wrap foot-row">
+      <p class="foot-tower">
+        <svg viewBox="0 0 19.805 19.805" aria-hidden="true"><path d="M2.405,19.805h14.996v-0.793h-1.172v-0.348h-0.391l-0.002-0.056c0.018-0.027,0.027-0.056,0.027-0.082c0-0.378-1.715-0.702-4.15-0.84V7.689l0.506-0.443v-0.19l-1.328-0.225v-2.05l0.211-0.248l-0.211-0.127V4.11l-0.649-0.271h-0.018l-0.04-0.938c0,0,0.111-0.127,0.095-0.204c-0.017-0.079-0.379-0.174-0.379-0.174V1.67L9.253,1.009L8.614,1.648v0.748H8.465l-0.017-2.03L8.212,0L7.99,0.396L7.903,3.839H7.885l-0.588,0.61l0.187,0.152v2.348l-0.6,0.369H6.57v0.194L6.287,7.688l0.283,0.06v9.941c-2.425,0.139-4.13,0.461-4.13,0.839c0,0.017,0.003,0.032,0.012,0.05L2.405,19.805z M10.545,8.626h0.475v1.072h-0.475V8.626z M10.545,11h0.475v1.069h-0.475V11z M10.545,13.37h0.475v1.074h-0.475V13.37z M10.545,15.74h0.475v1.073h-0.475V15.74z M9.111,8.626h0.473v1.072H9.111V8.626z M9.111,11h0.473v1.069H9.111V11z M9.111,13.37h0.473v1.074H9.111V13.37z M9.111,15.74h0.473v1.073H9.111V15.74z"/></svg>
+        <span data-i18n="footer.tagline">De la Torre de Hércules al mundo</span>
+      </p>
+      <p>© <span id="year">2026</span> David Adrián Rodríguez García · Coirós de Arriba, Galicia</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
 </body>
 </html>
