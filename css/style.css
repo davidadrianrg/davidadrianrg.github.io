@@ -106,11 +106,11 @@ section{scroll-margin-top:84px}
 
 /* ---------- capacidades ---------- */
 .cap-list{border-top:1px solid var(--dark-line)}
-.cap-item{display:grid;grid-template-columns:52px minmax(200px,1fr) minmax(260px,1.35fr) auto;gap:28px;align-items:start;padding:24px 0;border-bottom:1px solid var(--dark-line)}
+.cap-item{display:grid;grid-template-columns:52px minmax(180px,1fr) minmax(230px,1.35fr) 260px;gap:28px;align-items:start;padding:24px 0;border-bottom:1px solid var(--dark-line)}
 .cap-num{font-family:var(--font-mono);font-size:.78rem;color:var(--accent-bright);padding-top:4px}
 .cap-title{font-size:1.1rem;font-weight:600;color:#fff}
 .cap-desc{color:var(--dark-muted);font-size:.94rem;max-width:46ch}
-.cap-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:250px}
+.cap-tags{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-start}
 .tag{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.03em;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:3px 8px;white-space:nowrap}
 .section--dark .tag{color:var(--dark-muted);border-color:var(--dark-line)}
 
