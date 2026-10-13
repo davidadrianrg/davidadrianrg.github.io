@@ -17,7 +17,7 @@
     "hero.lead1": "I design cloud data architectures for industrial environments:",
     "hero.lead2": "from the plant floor to the dashboard, in real time.",
     "hero.f1.label": "Location",
-    "hero.f1.val": "Coirós de Arriba, Galicia — Spain",
+    "hero.f1.val": "Coirós, Galicia — Spain",
     "hero.f2.label": "Languages",
     "hero.f2.val": "Spanish & Galician (native) · English (full professional) · German (elementary)",
     "hero.f3.label": "Certification",
